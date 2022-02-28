@@ -1,5 +1,5 @@
-import Expenses from "./components/Expenses/Expenses"; 
-import React from 'react';
+import Expenses from "./components/Expenses/Expenses";
+import React from "react";
 import NewExpense from "./components/NewExpense/NewExpense";
 
 //arrow function
@@ -26,6 +26,11 @@ const App = () => {
     },
   ];
 
+  const addExpenseHandler = (expense) => {
+    console.log("In App js");
+    console.log(expense);
+  };
+
   //Alternatives to display
   /*return React.createElement(
     "div",
@@ -34,13 +39,13 @@ const App = () => {
     React.createElement(Expenses, {items: expenses})
   );
   */
-  
+
   return (
     <div>
-      <NewExpense></NewExpense>
-      <Expenses items= {expenses}></Expenses>
+      <NewExpense onAddExpense={addExpenseHandler}></NewExpense>
+      <Expenses items={expenses}></Expenses>
     </div>
-  ); 
-}
+  );
+};
 
 export default App;
