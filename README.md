@@ -1,5 +1,5 @@
 
-# React Expense Tracker (Readme have to be edited)
+# React Expense Tracker 
 
 ---
 
@@ -18,29 +18,25 @@ This is a Web Expense Tracker developed by using React.js. You can add expenses 
 
 ## How To Use
 
-### Step 1
-Start the application.
 
-### Step 2
+### Add your expenses by clicking the "Add New Expense" button
+<br>
+You may enter the title, amount and choose the date of the expense.
+<br>
+<img src="https://user-images.githubusercontent.com/98761689/157588875-c0a17cce-ba0b-4c53-9998-b630cc5c9014.png" alt="Add" width="700">
 
-Make sure to allow the permission to use the camera.
-
-<img src="https://user-images.githubusercontent.com/98761689/156306577-82cf1091-8ca1-48c6-9c2b-46cb6f1837ea.png" alt="Step2" width="700">
+<img src="https://user-images.githubusercontent.com/98761689/157589061-be3282f3-fac1-41f0-939a-933e624c235a.png" alt="display" width="700">
 
 
-### Step 3
+### You may choose the year of your choosing to filter the year of expenses.
+<br>
+Click the dropdown to filter the year
+<br>
+<img src="https://user-images.githubusercontent.com/98761689/157589507-870b4910-82fb-4cbe-ad39-151f5bb7bd67.png" alt="filterDropdown" width="700">
 
-Scan the QR by using the camera.
+<img src="https://user-images.githubusercontent.com/98761689/157589641-d0f18ec3-52a5-4c0e-aead-e8ceb903437f.png" alt="filterDisplay" width="700">
 
-<img src="https://user-images.githubusercontent.com/98761689/156307299-f416e8a3-9a64-44af-a553-64e77abf8f9b.png" alt="Step 3" width="700">
-
-### Step 4
-
-The result will be display on the scanned result.
-
-<img src="https://user-images.githubusercontent.com/98761689/156308086-9ffa191a-720e-40c0-8948-7b9c35837833.png" alt="Step 4" width="700">
-
-[Back To The Top](#qr-web-scanner)
+[Back To The Top](#react-expense-tracker)
 
 ---
 
